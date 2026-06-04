@@ -1,0 +1,12 @@
+numpy
+scipy
+scikit-image
+opencv-python-headless
+tifffile
+sdtfile
+torch
+torchvision
+# CellSAM is not on PyPI — install from the upstream repo, pinned for reproducibility.
+cellSAM @ git+https://github.com/vanvalenlab/cellSAM.git@35bc6e0da6616cf7530e52d0282ee17bb1a57429
+# Cellpose 4 (cpsam) — alternative detector for small dim densely-packed cells.
+cellpose>=4.0,<5.0
