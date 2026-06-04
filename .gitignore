@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Data files
+*.sdt
+*.ome
+*.xml
+*.env
+*.tif
+*.tiff
+*.png
+*.jpg
+*.jpeg
+*.avi
+*.mp4
+*.zip
+*.csv
+segmentation_tracking/
+flim_results/
+cell_images/
+References/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Streamlit
+.streamlit/
+streamlit_app_old.py
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Model cache
+.cellpose/
+checkpoints/
+*.pt
+*.pth
